@@ -1,0 +1,42 @@
+name: Generate Snake
+
+on:
+  # Daily refresh. GitHub runs schedules in UTC; 05:37 UTC is late evening in Denver.
+  schedule:
+    - cron: "37 5 * * *"
+  # "Run workflow" button in the Actions tab
+  workflow_dispatch:
+  # Re-draw on every push to main
+  push:
+    branches:
+      - main
+
+# The job pushes SVGs to the `output` branch, so it needs write access to repo contents.
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
