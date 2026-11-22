@@ -12,7 +12,7 @@
   <a href="https://denverlocal.ai"><img src="https://img.shields.io/badge/Denver_Local_AI-1E3A8A?style=flat&logo=googlemaps&logoColor=white" alt="Denver Local AI"/></a>
 </p>
 
-<a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0D9488&center=true&vCenter=true&width=470&lines=Applied+AI+Engineering+Lead+%40+Medic;SRE+for+national-scale+health+systems;Runtime+AI+%7C+Buildtime+AI+%7C+Agents;Local-first.+Cost-aware.+Observable.;Building+hareet.ai+%26+denverlocal.ai" alt="Typing SVG" /></a>
+<a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0D9488&center=true&vCenter=true&width=470&lines=Applied+AI+Engineering+Lead;SRE+for+national-scale+health+systems;Runtime+AI+%7C+Buildtime+AI+%7C+Agents;Local-first.+Cost-aware.+Observable.;Building+hareet.ai+%26+denverlocal.ai" alt="Typing SVG" /></a>
 
 </div>
 
@@ -20,7 +20,7 @@
 
 ## 👋 About Me
 
-Hi there! I'm **Hareet Sandhu**, an Applied AI Engineering Lead at [Medic](https://medic.org), based in Denver, Colorado.
+Hi there! I'm **Hareet Sandhu**, an Applied AI Engineering Lead based in Denver, Colorado.
 
 I spent years as the SRE lead behind national-scale deployments of the [Community Health Toolkit](https://communityhealthtoolkit.org), the open-source platform six governments use to run their national community health systems. Today I lead applied AI at Medic: working out *when* AI is worth deploying, then making it cost-effective, model-agnostic and locally owned for the health programs and workers who rely on it.
 
@@ -59,7 +59,7 @@ I spent years as the SRE lead behind national-scale deployments of the [Communit
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,gcp,kubernetes,terraform,docker,linux,bash,githubactions,py,js,nodejs,postgres,grafana,prometheus,raspberrypi,blender&perline=8" alt="Tech stack" />
+    <img src="https://skillicons.dev/icons?i=aws,gcp,azure,kubernetes,terraform,docker,linux,bash,githubactions,py,js,nodejs,postgres,grafana,prometheus,langfuse,langgraph" alt="Tech stack" />
   </a>
 </p>
 
