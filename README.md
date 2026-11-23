@@ -39,7 +39,6 @@ I spent years as the SRE lead behind national-scale deployments of the [Communit
 **🚀 Also Building**
 
 - [hareet.ai](https://hareet.ai): an AI twin of me, built in the open: local models first, a capped cloud fallback, a real-time cost meter and a daily kill switch
-  <!-- Add the repo link once hareet/h4reet-ai is public: https://github.com/hareet/h4reet-ai -->
 - [Denver Local AI Solutions](https://denverlocal.ai): a company my wife and I run in Denver, setting up private AI in small teams' offices for their sensitive data
 
 **💡 What I Like**
